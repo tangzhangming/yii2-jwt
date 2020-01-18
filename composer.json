@@ -1,0 +1,28 @@
+{
+    "name": "tangzhangming/yii2-jwt",
+    "description": "yii2 framework use jwt",
+    "type": "yii2-extension",
+    "license": "apache2",
+    "authors": [
+        {
+            "name": "tangzhangming",
+            "email": "tangzhangming@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.0",
+        "firebase/php-jwt": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tangzhangming\\jwt\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tangzhangming\\jwt\\tests\\": "tests/"
+        }
+    }
+}
